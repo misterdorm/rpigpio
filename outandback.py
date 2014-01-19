@@ -11,16 +11,16 @@ def main():
 
   while True:
     on(RED)
-    sleep(0.2)
-    on(YELLOW)
     sleep(0.1)
-    on(GREEN)
+    on(YELLOW)
     sleep(0.05)
-    on(BLUE)
+    on(GREEN)
     sleep(0.025)
+    on(BLUE)
+    sleep(0.0125)
     on(WHITE)
 
-    sleep(0.5)
+    sleep(0.2)
 
     off(WHITE)
     sleep(0.025)

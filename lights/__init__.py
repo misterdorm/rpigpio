@@ -35,3 +35,7 @@ def off(color):
     init()
   GPIO.output(pins[color], GPIO.LOW)
 
+def toggle(color):
+  if not initd:
+    init()
+  GPIO.output(pins[color], not GPIO.input(pins[color]))
